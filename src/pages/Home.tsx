@@ -26,16 +26,6 @@ export default function Home() {
 		}
 	};
 
-	// const handleRelatedVideos = async (videoId: string) => {
-	// 	try {
-	// 		console.log('Fetching related videos for:', videoId);
-	// 		const results = await getRelatedVideos(videoId);
-	// 		setVideos(results || []);
-	// 	} catch (error) {
-	// 		console.error('Related videos error:', error);
-	// 	}
-	// };
-
 	useEffect(() => {
 		if (selectedVideo) {
 			handleSearch('lofi hip hop');
